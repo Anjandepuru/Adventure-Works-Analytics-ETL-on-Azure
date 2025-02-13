@@ -1,0 +1,2 @@
+Project Overview
+This project implements a data pipeline that ingests data from various sources, processes it through multiple transformation stages (Bronze, Silver, and Gold layers), and provides the data for reporting and analytics. The pipeline leverages Azure Data Factory for ingestion, Azure Data Lake Gen2 for storage, Databricks for transformation, Azure Synapse for serving, and Power BI for reporting.
