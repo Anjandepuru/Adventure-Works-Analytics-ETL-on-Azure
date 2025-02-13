@@ -5,7 +5,7 @@ The data pipeline follows a structured flow:
 1. Data Source: Data is collected from various HTTP endpoints.
 2. Data Ingestion: Azure Data Factory orchestrates the ingestion process.
 3. Raw Data Store (Bronze Layer): Raw data is stored in Azure Data Lake Gen2.
-Transformation (Databricks): Data is processed and transformed in Databricks.
-Transformed Data Store (Silver Layer): Transformed data is stored in Azure Data Lake Gen2.
-Serving Layer (Gold Layer): Data is aggregated and stored in Azure Synapse for efficient querying.
-Reporting: Power BI connects to Azure Synapse to generate reports and dashboards.
+4. Transformation (Databricks): Data is processed and transformed in Databricks.
+5. Transformed Data Store (Silver Layer): Transformed data is stored in Azure Data Lake Gen2.
+6. Serving Layer (Gold Layer): Data is aggregated and stored in Azure Synapse for efficient querying.
+7. Reporting: Power BI connects to Azure Synapse to generate reports and dashboards.
