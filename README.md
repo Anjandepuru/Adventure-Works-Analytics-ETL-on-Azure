@@ -9,3 +9,4 @@ The data pipeline follows a structured flow:
 5. Transformed Data Store (Silver Layer): Transformed data is stored in Azure Data Lake Gen2.
 6. Serving Layer (Gold Layer): Data is aggregated and stored in Azure Synapse for efficient querying.
 7. Reporting: Power BI connects to Azure Synapse to generate reports and dashboards.
+![DALL·E 2025-02-12 13 12 22 - A professional and structured data architecture diagram titled 'Adventure Works Analytics   ETL on Azure'  The diagram should include_ - 'Data Ingesti](https://github.com/user-attachments/assets/30ee58a5-04ad-4b42-a5e4-83f85b9c1d6f)
